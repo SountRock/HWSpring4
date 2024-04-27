@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> message from <span th:style = "'font-size:' + ${fontsize}" th:text="${sendler}"></span> </h1>
+<h1> message: <span th:style = "'font-size:' + ${fontsize}" th:text="${message}"></span> </h1>
+</body>
+</html>
